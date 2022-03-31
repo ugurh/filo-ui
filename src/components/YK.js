@@ -8,6 +8,8 @@ class YK extends Component {
         ];
         const isShown = false;
 
+        const arrowFunction = () => 'Arrow Function';
+
         return (
             <div>
                 {
@@ -17,6 +19,7 @@ class YK extends Component {
                         {users.map(user => <li>{user.name}</li>)}
                     </ul>
                 }
+                {arrowFunction()}
             </div>
         );
     }
